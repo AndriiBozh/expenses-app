@@ -1,0 +1,19 @@
+.expense {
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: beige;
+  margin: 10px;
+  padding: 10px;
+}
+
+.delete-btn {
+  background-color: rgb(250, 83, 83);
+  border-radius: 3px;
+  border: 1px solid grey;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.delete-btn:active {
+  transform: scale(0.8);
+}
